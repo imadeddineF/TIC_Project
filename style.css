@@ -1,7 +1,150 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 html {
   scroll-behavior: smooth;
 }
+a {
+  text-decoration: none;
+}
+
+/*********************************** Start Navbar Section *********************************/
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #cecece;
+  padding: 20px 50px;
+  align-items: center;
+}
+nav .logo {
+  cursor: pointer;
+}
+nav .logo H1 {
+  font-size: 30px;
+  font-weight: 900;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+nav ul li {
+  position: relative;
+  cursor: pointer;
+}
+nav ul li a {
+  color: black;
+}
+nav ul li::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background-color: black;
+  top: 20px;
+  transition: ease-in-out 0.2s;
+}
+nav ul li:hover::before {
+  width: 100%;
+}
+nav .members-btn {
+  list-style: none;
+  color: black;
+  padding: 10px 15px;
+  background-color: #a1a1a1;
+  border-radius: 20px;
+  transition: linear 0.2s;
+  cursor: pointer;
+}
+nav .members-btn:hover {
+  background-color: #919191;
+}
+nav .members-btn a {
+  color: black;
+}
+/*********************************** End Navbar Section *********************************/
+
+/*********************************** Start Hero Section *********************************/
+.hero {
+  min-height: calc(100vh - 82px);
+  background-color: #6d6d6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*********************************** End Navbar Section *********************************/
+
+/*********************************** Start Sections *********************************/
+/********** Start Section 1 **********/
+.section1 h2 {
+  margin-top: 100px;
+  text-align: center;
+}
+/********** End Section 1 **********/
+
+/********** Start Section 2 **********/
+.section2 h2 {
+  margin-top: 200px;
+  text-align: center;
+}
+/********** End Section 2 **********/
+
+/********** Start Section 3 **********/
+.section3 h2 {
+  margin-top: 200px;
+  text-align: center;
+}
+/********** End Section 3 **********/
+
+/********** Start Section 4 **********/
+.section4 h2 {
+  margin-top: 200px;
+  text-align: center;
+}
+/********** End Section 4 **********/
+
+/********** Start Section 5 **********/
+.section5 h2 {
+  margin-top: 200px;
+  text-align: center;
+}
+/********** End Section 5 **********/
+/*********************************** End Sections *********************************/
+
+/*********************************** Start Members Section *********************************/
+.members h2 {
+  margin-top: 100px;
+  text-align: center;
+}
+/*********************************** End Members Section *********************************/
+
+/*********************************** Start Footer Section *********************************/
+footer {
+  margin-top: 150px;
+  border-top: 1px solid #ffffff75;
+  width: 100wh;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  background-color: #474747;
+  color: white;
+}
+footer span:nth-child(2) {
+  color: #35ee82;
+  letter-spacing: 3px;
+  margin-left: 5px;
+  font-weight: 900;
+}
+footer span:nth-child(1) {
+  font-weight: 700;
+  text-decoration: underline;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*********************************** End Footer Section *********************************/
