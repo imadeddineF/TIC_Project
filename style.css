@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 body {
-  background-image: url(./Framebg.png);
+  background-image: url(./bg_img/Framebg.png);
   background-attachment: fixed;
 }
 hr {
