@@ -9,19 +9,29 @@ html {
 a {
   text-decoration: none;
 }
+body {
+  background-image: url(./Framebg.png);
+  background-attachment: fixed;
+}
+hr {
+  border: 1px solid #ffffff15;
+  width: 80%;
+  margin: auto;
+}
 
 /*********************************** Start Navbar Section *********************************/
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #cecece;
-  padding: 20px 50px;
+  background-color: #00000032;
+  color: #fff;
+  padding: 25px 100px;
   align-items: center;
 }
 nav .logo {
   cursor: pointer;
 }
-nav .logo H1 {
+nav .logo h1 {
   font-size: 30px;
   font-weight: 900;
   background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
@@ -33,21 +43,23 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 40px;
+  font-size: 18px;
 }
 nav ul li {
   position: relative;
   cursor: pointer;
 }
 nav ul li a {
-  color: black;
+  color: white;
 }
+
 nav ul li::before {
   content: "";
   position: absolute;
-  height: 2px;
+  height: 1px;
   width: 0;
-  background-color: black;
-  top: 20px;
+  background-color: white;
+  top: 25px;
   transition: ease-in-out 0.2s;
 }
 nav ul li:hover::before {
@@ -55,28 +67,79 @@ nav ul li:hover::before {
 }
 nav .members-btn {
   list-style: none;
-  color: black;
-  padding: 10px 15px;
-  background-color: #a1a1a1;
-  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff20;
+  border-radius: 10px;
   transition: linear 0.2s;
   cursor: pointer;
 }
 nav .members-btn:hover {
-  background-color: #919191;
+  background-color: #ffffff10;
 }
 nav .members-btn a {
-  color: black;
+  color: white;
 }
 /*********************************** End Navbar Section *********************************/
 
 /*********************************** Start Hero Section *********************************/
 .hero {
   min-height: calc(100vh - 82px);
-  background-color: #6d6d6d;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero .inside-hero {
+  text-align: center;
+  width: 50%;
+}
+.hero .inside-hero .green-title {
+  color: #16fcd2;
+  font-size: 26px;
+}
+.hero .inside-hero .white-title {
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.hero .inside-hero .description {
+  color: #ffffff71;
+  font-size: 18px;
+}
+.hero .inside-hero .btns {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.hero .inside-hero .btns .repo-btn {
+  background-color: #6016fc;
+  border: none;
+  padding: 18px 40px;
+  cursor: pointer;
+  transition: linear 0.2s;
+  font-weight: bold;
+  font-size: 16px;
+}
+.hero .inside-hero .btns .repo-btn a {
+  color: white;
+}
+.hero .inside-hero .btns .repo-btn:hover {
+  background-color: #5f16fcb0;
+}
+.hero .inside-hero .btns .pdf-btn {
+  background-color: #ffffff10;
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  cursor: pointer;
+  transition: linear 0.2s;
+  font-weight: bold;
+  font-size: 16px;
+}
+.hero .inside-hero .btns .pdf-btn:hover {
+  background-color: #ffffff08;
 }
 /*********************************** End Navbar Section *********************************/
 
@@ -84,35 +147,46 @@ nav .members-btn a {
 /********** Start Section 1 **********/
 .section1 h2 {
   margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
+  color: white;
 }
 /********** End Section 1 **********/
 
 /********** Start Section 2 **********/
 .section2 h2 {
   margin-top: 200px;
+  margin-bottom: 100px;
+
   text-align: center;
+  color: white;
 }
 /********** End Section 2 **********/
 
 /********** Start Section 3 **********/
 .section3 h2 {
   margin-top: 200px;
+  margin-bottom: 100px;
   text-align: center;
+  color: white;
 }
 /********** End Section 3 **********/
 
 /********** Start Section 4 **********/
 .section4 h2 {
   margin-top: 200px;
+  margin-bottom: 100px;
   text-align: center;
+  color: white;
 }
 /********** End Section 4 **********/
 
 /********** Start Section 5 **********/
 .section5 h2 {
   margin-top: 200px;
+  margin-bottom: 100px;
   text-align: center;
+  color: white;
 }
 /********** End Section 5 **********/
 /*********************************** End Sections *********************************/
@@ -121,19 +195,19 @@ nav .members-btn a {
 .members h2 {
   margin-top: 100px;
   text-align: center;
+  color: white;
 }
 /*********************************** End Members Section *********************************/
 
 /*********************************** Start Footer Section *********************************/
 footer {
   margin-top: 150px;
-  border-top: 1px solid #ffffff75;
   width: 100wh;
   text-align: center;
   padding: 30px;
   font-size: 18px;
-  background-color: #474747;
   color: white;
+  border-top: 1px solid #ffffff16;
 }
 footer span:nth-child(2) {
   color: #35ee82;
