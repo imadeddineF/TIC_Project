@@ -182,12 +182,255 @@ nav .members-btn a {
 /********** End Section 4 **********/
 
 /********** Start Section 5 **********/
+.section5 {
+  padding: 100px 120px;
+  color: white;
+}
 .section5 h2 {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
   color: white;
 }
+.section5 .content {
+  /* border: 1px solid white; */
+}
+/* ------------------------------------------------ */
+.section5 .content .part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.section5 .content .part1 .part1-desc {
+}
+.section5 .content .part1 .part1-desc h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section5 .content .part1 .part1-desc p {
+  color: #ffffff90;
+  letter-spacing: 1.1px;
+  font-size: 18px;
+}
+.section5 .content .part1 .part1-img {
+  background-color: #ffffff10;
+  padding: 20px;
+  border-radius: 20px;
+}
+.section5 .content .part1 .part1-img img {
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* ------------------------------------------------ */
+.section5 .content .parag1 {
+  margin-top: 15px;
+}
+.section5 .content .parag1 h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section5 .content .parag1 p {
+  color: #ffffff90;
+  letter-spacing: 1.1px;
+  font-size: 18px;
+}
+/* ------------------------------------------------ */
+.section5 .content .part2 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.section5 .content .part2 .part2-img {
+  background-color: #ffffff10;
+  padding: 20px;
+  border-radius: 20px;
+}
+.section5 .content .part2 .part2-img img {
+  border-radius: 20px;
+  cursor: pointer;
+  width: 400px;
+}
+.section5 .content .part2 .part2-desc {
+}
+.section5 .content .part2 .part2-desc h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section5 .content .part2 .part2-desc h3 img {
+  width: 40px;
+  margin-left: 30px;
+  outline: 7px solid #6016fc20;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: white;
+}
+.section5 .content .part2 .part2-desc p {
+  color: #ffffff90;
+  letter-spacing: 1.1px;
+  font-size: 18px;
+}
+/* ------------------------------------------------ */
+.section5 .content .parag2 {
+  margin-top: 50px;
+}
+.section5 .content .parag2 h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section5 .content .parag2 h3 span {
+  color: #00ff95;
+}
+.section5 .content .parag2 p {
+  color: #ffffff90;
+  letter-spacing: 1.1px;
+  font-size: 18px;
+}
+/* ------------------------------------------------ */
+.section5 .content .part3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.section5 .content .part3 .part3-desc {
+}
+.section5 .content .part3 .part3-desc h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section5 .content .part3 .part3-desc h3 img {
+  width: 50px;
+  margin-left: 30px;
+  outline: 7px solid #6016fc20;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.section5 .content .part3 .part3-desc p {
+  color: #ffffff90;
+  letter-spacing: 1.1px;
+  font-size: 18px;
+}
+.section5 .content .part3 .part3-img {
+  background-color: #ffffff10;
+  padding: 20px;
+  border-radius: 20px;
+}
+.section5 .content .part3 .part3-img img {
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: white;
+}
+/* ------------------------------------------------ */
+.section5 .content .part4 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.section5 .content .part4 .part4-imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.section5 .content .part4 .part4-imgs .part4-img1 {
+  background-color: #ffffff10;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
+.section5 .content .part4 .part4-imgs .part4-img1 img {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 600px;
+}
+.section5 .content .part4 .part4-imgs .part4-img2 {
+  background-color: #ffffff10;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
+.section5 .content .part4 .part4-imgs .part4-img2 img {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 600px;
+}
+.section5 .content .part4 .part4-desc {
+}
+.section5 .content .part4 .part4-desc h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.section5 .content .part4 .part4-desc .h31 {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+.section5 .content .part4 .part4-desc .h32 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.section5 .content .part4 .part4-desc p {
+  color: #ffffff90;
+  letter-spacing: 1.1px;
+  font-size: 18px;
+}
+.section5 .content .part4 .part4-desc .p1 {
+  text-align: center;
+}
+.section5 .content .part4 .part4-desc .p1 a {
+  color: #00ff95;
+  transition: all 0.2s;
+}
+.section5 .content .part4 .part4-desc .p1 a:hover {
+  color: #00ff9580;
+}
+.section5 .content .part4 .part4-desc .p2 .command {
+  color: #40fc16;
+  background-color: rgba(0, 0, 0, 0.501);
+  padding: 0 10px;
+}
+/* ------------------------------------------------ */
+.section5 .content .first {
+  margin-top: 50px;
+}
+.section5 .content .second {
+  margin-top: 20px;
+}
+.section5 .content .parag3 h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section5 .content .parag3 p {
+  color: #ffffff90;
+  letter-spacing: 1.1px;
+  font-size: 18px;
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
 /********** End Section 5 **********/
 /*********************************** End Sections *********************************/
 

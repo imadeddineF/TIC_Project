@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./fav-icon/favicon.ico" />
-
     <link rel="stylesheet" href="./style.css" />
     <title>Project 4</title>
   </head>
@@ -90,7 +89,177 @@
     <!--------- Start Section 5 --------->
     <div id="section5" class="section5">
       <h2>Section 5</h2>
+      <div class="content">
+        <div class="part1">
+          <div class="part1-desc">
+            <h3>Le contrôle de version (Version Control)</h3>
+            <p>
+              Le contrôle de version est la pratique de suivre et gérer les
+              modifications apportées au code source, essentielle pour les
+              projets de développement de logiciels et les projets
+              collaboratifs.
+            </p>
+          </div>
+          <div class="part1-img">
+            <img src="./section5_imgs/Image1.jpg" alt="" />
+          </div>
+        </div>
+        <!-- ---------------------------->
+        <div class="parag1">
+          <h3>A quoi sert ?</h3>
+          <p>
+            Un système de gestion de version permet de suivre les modifications
+            apportées à un projet de développement de logiciels ou de code
+            source, notamment lorsqu'il est travaillé en collaboration par
+            plusieurs développeurs. Git permet de coordonner le travail entre
+            plusieurs personnes en conservant un historique des changements
+            effectués sur des fichiers, ainsi que de faire coexister différentes
+            versions d'un même fichier.
+          </p>
+        </div>
+        <!-- ---------------------------->
+        <div class="part2">
+          <div class="part2-img">
+            <img src="./section5_imgs/Image2.png" alt="" />
+          </div>
+          <div class="part2-desc">
+            <h3>Git<img src="./section5_imgs/git.png" alt="" /></h3>
+            <p>
+              - Git est un système de gestion de version (VCS) conçu pour
+              faciliter la gestion de plusieurs versions d'une base de code.
+              <br />
+              <br />
+              - Il vous permet de voir les modifications apportées à votre code
+              et de les revenir facilement.
+              <br />
+              <br />
+              - Il coordonne le travail entre plusieurs développeurs et permet
+              l'utilisation de référentiels
+              <br />
+              <br />
+              - Locaux et distants.
+              <br />
+              <br />
+              - Git est gratuit et open source.
+            </p>
+          </div>
+        </div>
+        <!-- ---------------------------->
+        <div class="parag2">
+          <h3>Modèle centralisé <span>vs</span> modèle décentralisé</h3>
+          <p>
+            Dans le modèle centralisé, le code source du projet est stocké sur
+            un serveur distant et les utilisateurs se connectent à ce serveur
+            pour travailler dessus.
+            <br />
+            Dans le modèle décentralisé, chaque utilisateur télécharge le code
+            source sur sa propre machine. Ce modèle est plus simple et flexible,
+            car les utilisateurs n'ont pas besoin d'être constamment connectés
+            au serveur central pour travailler. De plus, il est plus sûr car
+            chaque utilisateur a une copie complète du projet, qui peut être
+            utilisée comme sauvegarde en cas de problème avec le serveur
+            central. Le modèle décentralisé a été popularisé par Git.
+          </p>
+        </div>
+        <!-- ---------------------------->
+        <div class="part3">
+          <div class="part3-desc">
+            <h3>GitHub <img src="./section5_imgs/Image4.png" alt="" /></h3>
+            <p>
+              - GitHub est une plateforme pour la collaboration sur du code !
+              <br />
+              <br />
+              - GitHub utilise Git pour la gestion de version.
+              <br />
+              <br />
+              - L'hébergement de dépôts (ou repositories) sur GitHub facilite le
+              partage de code entre les équipes en fournissant une interface
+              graphique pour cloner ou copier (fork) les dépôts sur une machine
+              locale.
+            </p>
+          </div>
+          <div class="part3-img">
+            <img src="./section5_imgs/Image5.png" alt="" />
+          </div>
+        </div>
+        <!-- ---------------------------->
+        <div class="part4">
+          <div class="part4-imgs">
+            <div class="part4-img1">
+              <img src="./section5_imgs/Image6.png" alt="" />
+            </div>
+            <div class="part4-img2">
+              <img src="./section5_imgs/Image7.png" alt="" />
+            </div>
+          </div>
+          <div class="part4-desc">
+            <h3 class="h31">Installation de Git</h3>
+            <p class="p1">
+              Télécharger la dernière version sur le site
+              <a href="officiel http://git-scm.com/downloads">here</a>
+            </p>
+            <h3 class="h32">Paramétrage de Git</h3>
+            <p class="p2">
+              Après avoir installé Git, assurez-vous d'avoir configuré le nom
+              d'utilisateur et l'adresse e-mail. Ces informations sont utilisées
+              pour signer les commits.
+              <br />
+              <span class="command"
+                >git config --global user.name "your-user-name"</span
+              >
+              <br />
+              <span class="command"
+                >git config --global user.email "your@email.com"</span
+              >
+              <br />
+              <br />
+              Pour vous assurer que vos informations ont bien été enregistrées,
+              vous pouvez taper:
+              <br />
+              <span class="command">git config user.name</span>
+              <br />
+              <span class="command">git config user.email</span>
+            </p>
+          </div>
+        </div>
+        <!-- ---------------------------->
+        <div class="parag3 first">
+          <h3>La gestion des informations selon Git</h3>
+          <p>
+            Git stocke les données sous forme d'instantanés et chaque instantané
+            est stocké dans une base de données locale. La disponibilité de
+            l'historique complet du projet localement permet à Git de
+            fonctionner rapidement et efficacement, sans avoir besoin d'une
+            connexion permanente à un serveur distant.
+          </p>
+        </div>
+        <!-- ---------------------------->
+        <div class="parag3 second">
+          <h3>Les états des fichiers</h3>
+          <p>
+            Lorsqu'on travaille avec Git, les fichiers peuvent être soit suivis,
+            c'est-à-dire qu'ils ont été indexés et validés, soit non suivis. Au
+            démarrage d'un dépôt Git, les fichiers sont non suivis et doivent
+            être indexés et validés avant de pouvoir être suivis. Les fichiers
+            suivis peuvent être modifiés, indexés ou validés. Un fichier modifié
+            doit être indexé avant d'être validé. Lorsqu'on enregistre un
+            instantané du projet, tous les fichiers indexés et non modifiés sont
+            validés. Le cycle peut alors recommencer avec de nouveaux fichiers
+            ou des modifications apportées aux fichiers existants.
+          </p>
+        </div>
+      </div>
     </div>
+    <!-- ---------------------------->
+
+    <!-- ---------------------------->
+
+    <!-- ---------------------------->
+
+    <!-- ---------------------------->
+
+    <!-- ---------------------------->
+
     <!--------- End Section 5 --------->
 
     <!-------------------------------- End Sections ------------------------------------>
