@@ -1883,8 +1883,8 @@
           <div class="part4-desc">
             <h3 class="h31">Installation de Git</h3>
             <p class="p1">
-              Télécharger la dernière version sur le site
-              <a href="officiel http://git-scm.com/downloads">here</a>
+              Télécharger la dernière version sur le site officiel
+              <a href="http://git-scm.com/downloads">here</a>
             </p>
             <h3 class="h32">Paramétrage de Git</h3>
             <p class="p2">
@@ -1936,17 +1936,178 @@
             ou des modifications apportées aux fichiers existants.
           </p>
         </div>
+        <!-- ---------------------------->
+        <div class="part5">
+          <div class="part5-desc">
+            <h3>Les zones de travail</h3>
+            <p>
+              Les fichiers dans Git sont associés à des zones de travail et
+              peuvent être dans différents états. 
+              <br>
+              Tout projet Git est constitué de trois parties :
+              <br>
+              <span style="color: #35ee82;">le répertoire de travail,</span> <span style="color: #35ee82;">la zone d'index</span> et <span style="color: #35ee82;">le répertoire Git</span>. 
+              <br>
+              Le répertoire de travail correspond à une
+              extraction unique d'une version du projet et les fichiers sont
+              extraits de la base de données compressée située dans le
+              répertoire Git. 
+              <br>
+              La zone d'index stocke les informations concernant
+              ce qui fera partie du prochain instantané ou commit. 
+              <br>
+              Le répertoire
+              Git stocke les métadonnées et la base de données des objets du
+              projet. 
+              <br>
+              Le processus de travail consiste à travailler sur les
+              fichiers dans le répertoire de travail, puis à indexer les
+              fichiers modifiés ou créés. 
+              <br>
+              Tant qu'un fichier n'est pas indexé,
+              il possède l'état modifié ou est non suivi s'il est nouveau. 
+              <br>
+              Une
+              fois indexé, il a l'état indexé et peut être validé (commit) pour
+              être ajouté au répertoire Git.
+            </p>
+          </div>
+          <div class="part5-img">
+            <img src="./section5_imgs/Image9.png" alt="" />
+          </div>
+        </div>
+        <!-- ---------------------------->
+        <div class="part6">
+          <div class="part6-img">
+            <img src="./section5_imgs/Image10.png" alt="" />
+          </div>
+          <div class="part6-desc">
+            <h3>1- Comment traiter un Dépôt (Repo)</h3>
+            <p>
+              <span style="color: #4a86e8;">Dépôt (Repository) :</span> le dossier qui contient le
+              projet (code source, ressources ...)
+              <br />
+              <br />
+              <span style="color: white; font-size: 18px;">Depuis GitHub :</span>
+              <br />
+              - Créez le dépôt (s'il n'existe pas)
+              <br />
+              - Clonez-le sur votre machine locale en utilisant
+              <span>git clone</span>
+              <br />
+              <br />
+              <span style="color: white; font-size: 18px;">Depuis la machine locale :</span>
+              <br />
+              - Créer le dépôt sur GitHub
+              <br />
+              - Initialisez le dépôt local en utilisant la commande
+              <span class="command">git init</span>
+              <br />
+              - Commuter les fichiers en utilisant
+              <span class="command">git add</span> et
+              <span class="command">git commit -m "message"</span>
+
+              <br />
+              - Configurer les variables de distance en utilisant
+              <span class="command">git remote add origin</span>
+              <br />
+              - Push en utilisant
+              <span class="command">git push origin master</span>
+              <br />
+              <br />
+              <span style="color: #16fcd2; font-size: 18px; text-decoration: underline;">Push :</span> téléverser les modifications de votre
+              ordinateur vers votre dépôt GitHub.
+              <br />
+              <span style="color: #16fcd2; font-size: 18px; text-decoration: underline;">Pull :</span>
+              télécharger les modifications depuis votre dépôt GitHub vers votre
+              ordinateur.
+            </p>
+          </div>
+        </div>
+        <!-- ---------------------------->
+        <div class="part7">
+          <div class="part7-desc">
+            <h3>2- Comment traiter les commit</h3>
+            <p>
+              <span style="color: #4a86e8;">Commit : </span> Un point de contrôle de l'état de votre
+              dépôt à un moment particulier.
+              <br>
+              <br />
+              <span style="color: white; font-size: 18px;">Pour créer un commit :</span>
+              <br />
+              - Ajouter des fichiers à l'aire de staging en utilisant
+              <span class="command">git add .</span> (Le point signifie "tout"
+              dans le monde du développement) 
+              <br>
+              - Effectuer le commit des modifications en utilisant
+              <span class="command">git commit -m ”message”</span>
+              <br><br><br>
+              Pour inspecter l'historique des commit (changements): utilisez la commande <span class="command">git log --oneline </span> 
+              <br>
+              Pour revenir à l'état précédent: utilisez la commande <span class="command">git checkout commitId</commitId></span> 
+            </p>
+          </div>
+          <div class="part7-img">
+            <img src="./section5_imgs/Image12.png" alt="" />
+          </div>
+        </div>
+        <!-- ---------------------------->          
+        <div class="part8">
+          <div class="part8-imgs">
+            <div class="part8-img1">
+              <img src="./section5_imgs/Image3.jpg" alt="" />
+            </div>
+            <div class="part8-img2">
+              <img src="./section5_imgs/Image13.jpg" alt="" />
+            </div>
+          </div>
+          <div class="part8-desc">
+            
+            <h3 class="h32">3-	Comment traiter les branches</h3>
+            <p>
+              <span  style="color: #4a86e8;">Branche (Branch) :</span>
+              une version parallèle de la copie principale d'un référentiel. La création d'une branche vous permet de modifier le code sans risquer de casser une version fonctionnelle.
+              <br />
+              <br>
+              <span style="color: white; font-size: 20px; font-weight: 600;">Opérations sur les branches :</span>
+              <br />
+              Liste des branches : <span class="command">git branch</span> 
+              <br>
+              Créer une branche : <span class="command">git branch -branchName-</span> 
+              <br>
+              Supprimer une branche : <span class="command">git branch -d -branchName-</span> 
+              <br>
+              Changer de branche : <span class="command">git checkout -branchName-</span>
+              <br>
+              <br>
+              <br>
+              <span style="color: white; font-size: 20px; font-weight: 600;">Fusionner des branches :</span>
+              <br>
+              <span style="color: white;">Fusionner (Merge) :</span>
+              <br>
+              Pour ajouter officiellement les modifications de votre branche dans la branche principale (ou une autre branche).
+              <br>
+              <br>
+              <span style="color: white;">Pour fusionner sur votre machine locale :</span>
+              <br>
+              -	Tout d'abord, basculez vers la branche souhaitée que vous souhaitez fusionner. 
+              <br>
+              -	Exécutez la commande suivante pour fusionner la branche entière dans la branche active. 
+              <br>
+              -	Branche <span class="command">git merge -branchName-</span> 
+              <br>
+              <br>
+              <span style="color: white;">Pour fusionner dans le référentiel GitHub :</span>
+              <br>
+              -	Poussez la branche vers GitHub.
+              <br>
+              -	Créez une demande d'extraction (pull request).
+            </p>
+          </div>
+        </div>
+        <!-- ---------------------------->
       </div>
     </div>
-    <!-- ---------------------------->
-
-    <!-- ---------------------------->
-
-    <!-- ---------------------------->
-
-    <!-- ---------------------------->
-
-    <!-- ---------------------------->
 
     <!--------- End Section 5 --------->
 
@@ -1957,6 +2118,35 @@
     <!-------------------------------- Start Membres Section ---------------------------------->
     <div id="members" class="members">
       <h2>Members</h2>
+      <div class="boxes">
+        <div class="box">
+          <h3>Section 1</h3>
+          <h5>📍 Bouhabila Houyam</h5>
+          <h5>📍 Sahnoune Zakaria</h5>
+        </div>
+        <div class="box">
+          <h3>Section 2</h3>
+          <h5>📍 Hamzaoui Yousra</h5>
+          <h5>📍 Khermous Rym</h5>
+        </div>
+        <div class="box">
+          <h3>Section 3</h3>
+          <h5>📍 Naitchaban Nidhal</h5>
+          <h5>📍 Benfredj Meriem</h5>
+        </div>
+        <div class="box">
+          <h3>Section 4</h3>
+          <h5>📍 Belal Riham</h5>
+          <h5>📍 Amokrane Lina Anais</h5>
+        </div>
+        <div class="box">
+          <h3>Section 5</h3>
+          <h5>📍 Fillali Imad Eddine</h5>
+          <h5>📍 Guendouz Bessemala Djenatou El Khouloud</h5>
+        </div>
+        
+        
+      </div>
     </div>
     <!-------------------------------- End Membres Section ------------------------------------>
 
