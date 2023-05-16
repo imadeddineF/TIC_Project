@@ -145,8 +145,11 @@ nav .members-btn a {
 
 /*********************************** Start Sections *********************************/
 /********** Start Section 1 **********/
+.section1 {
+  padding: 100px 120px;
+}
 .section1 h2 {
-  margin-top: 100px;
+  font-size: 40px;
   margin-bottom: 100px;
   text-align: center;
   color: white;
@@ -154,18 +157,26 @@ nav .members-btn a {
 /********** End Section 1 **********/
 
 /********** Start Section 2 **********/
-.section2 h2 {
-  margin-top: 200px;
-  margin-bottom: 100px;
+.section2 {
+  padding: 100px 120px;
+}
 
+.section2 h2 {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
   color: white;
 }
 /********** End Section 2 **********/
 
 /********** Start Section 3 **********/
+.section3 {
+  padding: 100px 120px;
+}
 .section3 h2 {
-  margin-top: 200px;
+  font-size: 40px;
+  margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
   color: white;
@@ -173,8 +184,12 @@ nav .members-btn a {
 /********** End Section 3 **********/
 
 /********** Start Section 4 **********/
+.section4 {
+  padding: 100px 120px;
+}
 .section4 h2 {
-  margin-top: 200px;
+  font-size: 40px;
+  margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
   color: white;
@@ -187,6 +202,7 @@ nav .members-btn a {
   color: white;
 }
 .section5 h2 {
+  font-size: 40px;
   margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
@@ -433,9 +449,10 @@ nav .members-btn a {
 
 /*********************************** Start Members Section *********************************/
 .members h2 {
+  font-size: 40px;
+  color: #00ff95;
   margin-top: 100px;
   text-align: center;
-  color: white;
 }
 /*********************************** End Members Section *********************************/
 
