@@ -187,20 +187,22 @@ nav .members-btn a {
 .section4 {
   padding: 100px 120px;
 }
- .section4 h2 {
-    margin-top: 200px;
-    margin-bottom: 100px;
-    text-align: center;
-    color: white;
-  }
-  table { border-collapse: collapse;
-  }
-  table td, table th {  border: 1px solid rgb(255, 255, 255);
-    padding: 10px;
-    text-align: center;
-    color: white;
-
-  }
+.section4 h2 {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+}
+table td,
+table th {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 /********** End Section 4 **********/
 
 /********** Start Section 5 **********/
@@ -686,7 +688,7 @@ nav .members-btn a {
 /*********************************** End Members Section *********************************/
 
 /*********************************** Start Footer Section *********************************/
-footer {
+footer p {
   margin-top: 150px;
   width: 100wh;
   text-align: center;
