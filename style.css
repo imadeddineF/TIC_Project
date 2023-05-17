@@ -138,6 +138,9 @@ nav .members-btn a {
   font-weight: bold;
   font-size: 16px;
 }
+.hero .inside-hero .btns .pdf-btn a {
+  color: white;
+}
 .hero .inside-hero .btns .pdf-btn:hover {
   background-color: #ffffff08;
 }
