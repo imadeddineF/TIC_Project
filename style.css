@@ -476,6 +476,12 @@ table th {
   cursor: pointer;
 }
 /* ------------------------------------------------ */
+.git-github-title {
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 26px;
+}
 .section5 .content .part6 {
   margin-top: 60px;
   display: flex;
