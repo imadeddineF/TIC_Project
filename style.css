@@ -150,6 +150,7 @@ nav .members-btn a {
 /********** Start Section 1 **********/
 .section1 {
   padding: 100px 120px;
+  text-align: center;
 }
 .section1 h2 {
   font-size: 40px;
@@ -162,6 +163,7 @@ nav .members-btn a {
 /********** Start Section 2 **********/
 .section2 {
   padding: 100px 120px;
+  text-align: center;
 }
 
 .section2 h2 {
@@ -176,6 +178,7 @@ nav .members-btn a {
 /********** Start Section 3 **********/
 .section3 {
   padding: 100px 120px;
+  color: white;
 }
 .section3 h2 {
   font-size: 40px;
@@ -294,7 +297,6 @@ table th {
   outline: 7px solid #6016fc20;
   border-radius: 100%;
   cursor: pointer;
-  background-color: white;
 }
 .section5 .content .part2 .part2-desc p {
   color: #ffffff90;
@@ -355,7 +357,6 @@ table th {
 .section5 .content .part3 .part3-img img {
   border-radius: 20px;
   cursor: pointer;
-  background-color: white;
 }
 /* ------------------------------------------------ */
 .section5 .content .part4 {
